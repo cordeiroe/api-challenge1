@@ -1,11 +1,11 @@
 import { IsNotEmpty, IsString } from 'class-validator';
 
-export class DepositionsDto {
+export class ReviewsDto {
     @IsString()
     @IsNotEmpty()
     name: string;
 
     @IsString()
     @IsNotEmpty()
-    deposition: string;
+    review: string;
 }
